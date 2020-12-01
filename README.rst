@@ -1,8 +1,8 @@
 koski_reader
 =======================
 
-.. image:: https://img.shields.io/pypi/v/koski_reader_standalone.svg
-    :target: https://pypi.python.org/pypi/koski_reader_standalone
+.. image:: https://img.shields.io/pypi/v/koski_reader.svg
+    :target: https://pypi.python.org/pypi/koski_reader
     :alt: Latest PyPI version
 
 The REST client reads student's data from the Koski database.
