@@ -15,15 +15,21 @@ def read(filename):
 
 setup(
     name="koski_reader",
+    packages=["koski_reader"],
+    entry_points={
+        "console_scripts": [
+            "koski_reader=koski_reader.koski_reader:main"
+        ]
+    },
     version="0.1.0",
     url="https://github.com/pasiol/koski_reader_standalone",
-    license="MIT",
+    license="GNU Lesser General Public License v3.0 or later (LGPLv3.0+)",
     author="Pasi Ollikainen",
     author_email="pasi.ollikainen@outlook.com",
     description="The REST client reads student data from the Koski database.",
     long_description=read("README.rst"),
     packages=find_packages(exclude=("tests",)),
-    install_requires=[],
+    install_requires=["click>=7.1.2", "reaquests>=2.25.0"],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
