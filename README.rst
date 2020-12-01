@@ -1,4 +1,4 @@
-koski_reader_standalone
+koski_reader
 =======================
 
 .. image:: https://img.shields.io/pypi/v/koski_reader_standalone.svg
