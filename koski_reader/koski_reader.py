@@ -51,12 +51,8 @@ def main(username, password, input_file, output_path):
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
     collection = None
-    endpoint = None
-    try:
-        endpoint = f"https://virkailija.opintopolku.fi/koski/api/opiskeluoikeus"
-    except Exception as error:
-        logger.critical(f"Unknown fetch type {ftype}.")
-        sys.exit(1)
+    endpoint = f"https://virkailija.opintopolku.fi/koski/api/opiskeluoikeus"
+
 
     logger.info(f"The Koski reader started. Trying to fetch data from url: {endpoint}")
 
