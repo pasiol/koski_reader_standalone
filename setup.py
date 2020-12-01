@@ -21,7 +21,7 @@ setup(
             "koski_reader=koski_reader.koski_reader:main"
         ]
     },
-    version="0.1.0",
+    version="0.2.0",
     url="https://github.com/pasiol/koski_reader_standalone",
     license="GNU Lesser General Public License v3.0 or later (LGPLv3.0+)",
     author="Pasi Ollikainen",
