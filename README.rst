@@ -12,14 +12,48 @@ Simple script which reads studend's koski data from the studyright endpoint. The
 Usage
 -----
 
+The Koski JSON schema is complex to parse. The Easiest way utilize it, is use some framework, for example the MongoDB Aggregation Framework. The Koski reader only get data from enpoint. Check following repo if need guidance for parsing data.
+
+`<https://github.com/pasiol/koski_reader>`
+
+Running job on cli::
+
+    to be continued
+
 Installation
 ------------
+
+Easiest way is install WilmaJSONReader from PyPi. Before installation create Python virtual environment or install it to container image.
+
+Linux && Mac::
+
+    python3 -m venv venv
+    source venv/bin/activate
+
+    pip install koski_reader_standalone
+
+    ...
+
+    deactivate
+
+Windows
+
+   `<https://docs.python.org/3.8/library/venv.html>`_
+
+Upgrade::
+
+    pip install koski_reader_standalone -U
 
 Requirements
 ^^^^^^^^^^^^
 
-Compatibility
+click>=7.1.2
+reaquests>=2.25.0
+
+Compatibility (tested)
 -------------
+
+Python 3.8 ->
 
 Licence
 -------
