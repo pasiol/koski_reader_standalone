@@ -7,7 +7,7 @@ koski_reader_standalone
 
 The REST client reads student's data from the Koski database.
 
-Simple script which reads studend's koski data from the studyright endpoint. The script needs input file which contain studyrights on csv-file. You can easily generate input file with the primusquery utility. Script saves json rensonse to output folder and naming output file {studyright}.json. Before saving script removes student's personal identifier. 
+Simple script which reads studend's koski data from the studyright endpoint. The script needs input file which contain studyrights on csv-file. You can easily generate input file with the primusquery utility. Script saves json response to output folder and naming output file {studyright}.json. Before saving script removes student's personal identifier. 
 
 Downgraded version of koski_reader which uses mongodb for processing Koski JSON data. 
 
@@ -27,9 +27,7 @@ Cli::
     Options:
     --help  Show this message and exit.
 
-Generate using primusquery CSV input file (utf-8 based encoding), which contains student's studyright per line.
-
-    koski_reader koskiUser password opiskeluoikeudet data/
+Generate using primusquery CSV input file (utf-8 based encoding), which contains student's studyright per line::
 
     (venv) D:\>koski_reader TUNNUS SALASANA opiskeluoikeudet.csv data\
 
