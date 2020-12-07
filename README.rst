@@ -16,7 +16,7 @@ Usage
 
 The Koski JSON schema is complex to parse. The Easiest way utilize it, is use some framework, for example the MongoDB Aggregation Framework. The Koski reader only get data from enpoint. Check following repo if need guidance for parsing data.
 
-    `<https://github.com/pasiol/koski_reader>` _
+    `<https://github.com/pasiol/koski-reader>` _
 
 
 Cli::
@@ -62,7 +62,7 @@ Windows
 
 Upgrade::
 
-    pip install koski_reader_standalone -U
+    pip install koski-reader -U
 
 Requirements
 ^^^^^^^^^^^^
