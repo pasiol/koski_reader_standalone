@@ -17,7 +17,7 @@ setup(
     name="koski_reader",
     packages=["koski_reader"],
     entry_points={"console_scripts": ["koski_reader=koski_reader.koski_reader:main"]},
-    version="0.2.0",
+    version="0.2.1",
     url="https://github.com/pasiol/koski_reader_standalone",
     license="GNU Lesser General Public License v3.0 or later (LGPLv3.0+)",
     author="Pasi Ollikainen",
