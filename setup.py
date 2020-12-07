@@ -24,7 +24,7 @@ setup(
     author_email="pasi.ollikainen@outlook.com",
     description="The REST client reads student data from the Koski database.",
     long_description=read("README.rst"),
-    install_requires=["click>=7.1.2", "reaquests>=2.25.0"],
+    install_requires=["click>=7.1.2", "requests>=2.25.0"],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
